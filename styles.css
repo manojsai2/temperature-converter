@@ -1,0 +1,76 @@
+body{
+    margin: 0;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0,0,0,0.7)),url("img3.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: monospace;
+    color: rgb(26, 169, 169);
+}
+
+.container{
+    padding: 20px;
+    border-radius: 10px;
+    width: 85%;
+    max-width: 450px;
+    min-width: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.heading{
+    font-size: 32px;
+}
+
+.temp-container{
+    width: 100%;
+    padding: 15px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.temp-container label{
+    color: white;
+}
+
+.Input{
+    width: 220px;
+    font-family: monospace;
+    padding: 5px;
+    float: right;
+    outline: none;
+    border-radius: 5px;
+    background: rgb(253, 248, 248);
+    border-color: rgba(255,255,255,.5);
+    color: rgb(20, 122, 20);
+    font-size: 15px;
+}
+
+.Input::placeholder{
+    color: darkgray;
+}
+
+.button{
+    margin-top: 25px;
+    margin-left: -50px;
+}
+
+button{
+    border: none;
+    outline: none;
+    padding: 10px 70px;
+    font-weight: 550;
+    border-radius: 18px;
+    font-size: 20px;
+    cursor: pointer;
+    transition: .3s;
+    box-shadow: 0 4px 10px rgba(0,0,0,.3);
+    background: rgb(26, 169, 169);
+    color: white;
+
+}
